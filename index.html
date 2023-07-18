@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+     <div class="wrapper">
+        <div class="row">
+            <div class="col">
+                <p class="text">Vaqt:</p>
+            </div>
+            <div class="col">
+                <p class="text time-count">00:00</p>
+            </div>
+        </div>
+        <table class="table"> </table>
+        <div class="row">
+            <div class="col">
+                <p class="text">Dirty:<span class="red-count">0</span></p>
+            </div>
+            <div class="col">
+                <p class="text">Diamond:<span class="green-count" >0</span></p>
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="modal-panel">
+                <h1>GAME OVER</h1>
+                <button class="restart-button" onclick="window.location.reload();">Restart</button>
+            </div>
+        </div>
+
+     </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
